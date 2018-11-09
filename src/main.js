@@ -22,7 +22,7 @@ Vue.use(VueRouter)
 FastClick.attach(document.body)
 
 Vue.config.productionTip = false
-Vue.protypes.$http=axios;
+Vue.prototype.$http=axios;
 
 /* eslint-disable no-new */
 new Vue({
